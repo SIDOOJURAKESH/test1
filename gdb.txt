@@ -1,0 +1,67 @@
+r
+n
+set history filename gdb.txt
+set history save on
+start
+n
+n
+n
+n
+n
+n
+n
+n
+start
+n
+n
+n
+n
+n
+n
+n
+n
+info b
+l
+start
+l
+b 7
+r
+n
+step
+n
+step
+tui enable
+l
+tui disable
+start
+l
+tui enable
+n
+b 9
+step
+n
+r
+n
+tui disable
+i b
+delete 4
+info b
+delete 6
+info b
+info stack
+i watch
+enable watch
+info b
+l
+b 9
+i b
+i w
+i watch
+enable watch
+info frame
+up
+l
+up
+down
+whatis i
+q
