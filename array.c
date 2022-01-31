@@ -10,5 +10,6 @@ scanf("%d",&array[i]);
 sum=sum+array[i];
 }
 printf("sum=%d",sum);
+  printf("thanku");
 return 0;
 }
